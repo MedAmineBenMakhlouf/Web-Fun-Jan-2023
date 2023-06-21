@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 2px black dotted;
+}
+.container
+{
+    margin: 10px auto;
+    width: 800px;
+    min-height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    /* flex-direction: column; */
+    /*flex-direction: row-reverse;*/
+    /*au lieu de padding margin*/
+    /*justify-content: space-between;*/
+    /*justifier a lentour*/
+    /*justify-content: space-around;*/
+    /* justifier equily */
+    justify-content: space-evenly;
+    /*centrer*/
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+.box
+{
+    height: 200px;
+    width:200px;
+    background-color: rgb(65,65,47);
+    margin:5px;
+
+}
+.big_box
+{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(65,65,47);
+}

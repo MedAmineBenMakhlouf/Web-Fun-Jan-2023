@@ -1,38 +1,23 @@
 function FizzBuzz()
 {
-    var arr3=[];
-    var arr5=[];
-    var arrall=[];
     for(var i=0; i<=100;i++)
     {
         if(i%3==0)
         {
-            arr3.push(i);
+            console.log("Fizz");
         }
-        if(i%5==0)
+        else if(i%5==0)
         {
-            arr5.push(i);
+            console.log("Buzz");
         }
-        if(i%3==0 && i%5==0)
+        else if(i%3==0 && i%5==0)
         {
-            arrall.push(i);
+            console.log("FizzBuzz");
+        }
+        else
+        {
+            console.log(i);
         }
     }
-    for(var i=0;i<=arr3.length-1;i++)
-    {
-        console.log(arr3[i])
-    }
-    console.log("Fizz")
-    
-    for(var i=0;i<=arr5.length-1;i++)
-    {
-        console.log(arr5[i])
-    }
-    console.log("Buzz")
-    for(var i=0;i<=arrall.length-1;i++)
-    {
-        console.log(arrall[i])
-    }
-    console.log("FizzBuzz")
 }
 FizzBuzz();

@@ -1,4 +1,4 @@
-/* 
+
 *{
     padding: 0;
     margin: 0;
@@ -6,10 +6,7 @@
 
 .container
 {
-    display: flex;
     position: relative;
-    flex-direction: column;
-    /* justify-content: center; 
     border: 2px rgb(204,204,204) solid;
     margin: 100px auto;
     width: 40%;
@@ -27,7 +24,7 @@ nav
 
 img
 {
-    position: absolute;
+    /* position: absolute; */
     top: 20px;
     left: 20px;
     border-radius: 50%;
@@ -48,13 +45,13 @@ img
 {
     width: 10px;
     height: 13px;
-} */
-* {
+}
+/* * {
     margin: 0;
     padding: 0;
 }
 
-/* styles to apply to body */
+
 
 body {
     background-color: #f3f3f3;
@@ -111,4 +108,4 @@ body {
 
 a {
     color: #3a81e6;
-}
+} */

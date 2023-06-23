@@ -22,7 +22,7 @@ function FizzBuzz()
     {
         console.log(arr3[i])
     }
-    console.log("Bizz")
+    console.log("Fizz")
     
     for(var i=0;i<=arr5.length-1;i++)
     {
@@ -33,6 +33,6 @@ function FizzBuzz()
     {
         console.log(arrall[i])
     }
-    console.log("BizzBuzz")
+    console.log("FizzBuzz")
 }
 FizzBuzz();

@@ -21,7 +21,7 @@ function AlertMessage()
     alert.style.top = "0px";
     alert.style.right= "500px";
     alert.style.backgroundColor="white"
-    alert.style.width ="25%";
+    alert.style.width ="20%";
     alert.style.border = "1px solid black";
     alert.style.height = "120px";
     alert.innerHTML = "<div id='alert'><h2>Ninja was liked!</h2><button id='btnAlert'>OK</button>";

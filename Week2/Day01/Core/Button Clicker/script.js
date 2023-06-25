@@ -17,12 +17,23 @@ function changeText(element)
 function AlertMessage()
 {
     var alert = document.getElementById('AlertMessage');
-    alert.innerHTML = "Ninja was liked!";
-    alert.style.position = "fixed"
+    alert.style.position = "absolute"
     alert.style.top = "0px";
-    alert.style.width ="30%";
+    alert.style.right= "500px";
+    alert.style.backgroundColor="white"
+    alert.style.width ="25%";
     alert.style.border = "1px solid black";
-    alert.style.height = "100px";
-    alert.innerHTML = "<button> Ok</button>";
+    alert.style.height = "120px";
+    alert.innerHTML = "<div id='alert'><h2>Ninja was liked!</h2><button id='btnAlert'>OK</button>";
+    var posMainAlert = document.getElementById('alert');
+    posMainAlert.style.display="block";
+    posMainAlert.style.padding=" 10px 10px";
+    var btnAlert = document.getElementById('btnAlert');
+    btnAlert.style.display="block";
+    btnAlert.style.margin= "50px auto";
+    btnAlert.style.border="none";
+    btnAlert.style.backgroundColor="white";
+
+
 
 }

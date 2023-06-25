@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav
+{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px 15px;
+    justify-content: space-between;
+    background-color: rgb(204,204,204);
+    font-family: sans-serif;
+    border: 1px black solid;
+}
+nav button
+{
+    margin-right: 15px;
+    width: 70px;
+    padding: 5px 10px;
+    background-color: rgb(43,120,228);
+    border: 1px solid black;
+    box-shadow: 4px 3px;
+}
+.navGauche
+{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+}
+
+.search
+{
+    width: 350px;
+    margin-left: 30px;
+}
+main
+{
+    
+    width: 60%;
+    margin: 15px auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.maingauche
+{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+.ninjacard
+{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.maindroite
+{
+    width: 34%;
+    height: 115px;
+    border: 1px solid black;
+    padding: 8px 8px;
+}
+
+.cardgauche
+{
+    width: 35%;
+    height: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.carddroite
+{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cardgauche *
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cardgauche button
+{
+    width:70%;
+    padding: 5px 0;
+    background-color: rgb(255,217,102);
+    box-shadow: 3px 3px;
+}
+
+.maindroite .definition
+{
+    margin: 20px 40px;
+    padding: 5px 50px;
+    box-shadow: 3px 3px;
+    background-color: rgb(147,196,125);
+}

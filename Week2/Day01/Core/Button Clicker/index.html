@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div id="AlertMessage">
+
+    </div>
+    <nav>
+        <div class="navGauche">
+            <h1>Dojonary</h1>
+            <input type="text" class="search" placeholder="Search" name="Seach" id="searchBar">
+        </div>
+        <button onclick="changeText()">Login</button>
+    </nav>
+    <main>
+        <div class="maingauche">
+            <div class="ninjacard">
+                <div class="cardgauche">
+                    <h2>Ninja</h2>
+                    <h4>noun</h4>
+                    <h4>Plural ninja</h4>
+                    <button onclick="AlertMessage(this)">13 likes</button>
+                </div>
+                <div class="carddroite">
+                    <p>A practitioner skilled in the <a href="#">japanese</a> art of <a href="#">Ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="ninjacard">
+                <div class="cardgauche">
+                    <h2>Ninja</h2>
+                    <h4>noun</h4>
+                    <h4>Plural ninja</h4>
+                    <button>37 likes</button>
+                </div>
+                <div class="carddroite">
+                    <p>A <a href="#">Programmer</a> how breaks down problems with <a href="#">Zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="maindroite">
+            <h2>Dojonary is</h2>
+            <h2>defined by you</h2>
+            <button class="definition" onclick="removeButton(this)">Add definition</button>
+        </div>
+    </main>
+</body>
+</html>

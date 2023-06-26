@@ -28,7 +28,7 @@
                     <!-- user info card -->
                     <div class="user-card">
                         <div class="card-header">
-                            <img class="imagecercle" src="./images/adrien-s.jpg" alt="user-circle" >
+                            <img id="imageProf" class="imagecercle" src="./images/adrien-s.jpg" alt="user-circle" >
                         </div>
                         <div class="card-body">
                             <h1 id="name">Jane Doe</h1>
@@ -39,8 +39,8 @@
                             <p>Developer | Engineer | Problem Solver<br>
                             Master of shadows and the Internet!</p>
                             <p>
-                                <a href="#">
-                                    <img src="icons/gear.png" alt="gear" class="icon-s" onclick="changeProfile(name)"> 
+                                <a href="#" onclick="changeProfile('name','imageProf')">
+                                    <img src="icons/gear.png" alt="gear" class="icon-s"> 
                                     edit profile
                                 </a>
                             </p>
@@ -70,27 +70,27 @@
                     <!-- user info card -->
                     <div class="user-card">
                         <div class="connexion-header">
-                        <div class="nbr">2</div> <p> two connection requests </p>
+                        <div class="nbr" id="nbrReq">2</div> <p> two connection requests </p>
                         </div>
                         <div class="connexion-body">
-                            <div class="user">
+                            <div class="user" id="userReq1">
                                 <div class="icongauche">
                                     <img class="usericons" src="./images/alayne-s.jpg" alt="">
                                     <p>TODD E</p>
                                 </div>
                                 <div class="icondroite">
-                                    <img class="usericons" src="./icons/accept-circle.png" alt="">
-                                    <img class="usericons" src="./icons/close-circle.png" alt="">
+                                    <img class="usericons" src="./icons/accept-circle.png" alt="" onclick="remove('userReq1','nbrReq');addConnection('nbrConnection')">
+                                    <img class="usericons" src="./icons/close-circle.png" alt="" onclick="remove('userReq1','nbrReq')">
                                 </div>
                             </div>
-                            <div class="user">
+                            <div class="user" id="userReq2">
                                 <div class="icongauche">
                                     <img class="usericons" src="./images/anne-s.jpg" alt="">
                                     <p>Fill K</p>
                                 </div>
                                 <div class="icondroite">
-                                    <img class="usericons" src="./icons/accept-circle.png" alt="">
-                                    <img class="usericons" src="./icons/close-circle.png" alt="">
+                                    <img class="usericons" src="./icons/accept-circle.png" alt="" onclick="remove('userReq2','nbrReq'); addConnection('nbrConnection')" >
+                                    <img class="usericons" src="./icons/close-circle.png" alt="" onclick="remove('userReq2','nbrReq')">
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                     <!-- user info card -->
                     <div class="user-card1">
                         <div class="connexion-header">
-                        <div class="nbr">500</div> <p> your connections </p>
+                        <div class="nbr" id="nbrConnection">500</div> <p> your connections </p>
                         </div>
                         <div class="connexion-body">
                             <div class="user">
@@ -145,5 +145,6 @@
             </div>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

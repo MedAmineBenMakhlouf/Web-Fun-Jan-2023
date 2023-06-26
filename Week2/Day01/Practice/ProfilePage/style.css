@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+h1
+{
+    font-weight: bold;
+}
+.side1
+{
+    display: flex;
+    justify-content: right;
+}
+
+li
+{
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.side2
+{
+    display: flex;
+    justify-content: left;
+}
+
+button
+{
+    width:100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(23,162,184);
+    color: white;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: auto;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.gauche
+{
+    display: block;
+    
+    width: 60%;
+    height: auto;
+
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.imagecercle{
+    border-radius: 50%;
+    background-color: #fff;
+    height: 120px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+
+
+.education-header {
+    background-color: rgb(51,51,51);
+    height: 50px;
+    margin-bottom: 10px;
+}
+.education-body
+{
+    padding: 3px 10px;
+
+}
+
+.date
+{
+    font-weight: lighter;
+    font-size: small;
+    color: #999;
+}
+.education-header p
+{
+    padding-top: 10px;
+}
+
+.droite
+{
+    width: 30%;
+    height: auto;
+}
+
+.connexion-header 
+{
+
+    background-color: rgb(51,51,51);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.connexion-header div
+{
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(204,204,204);
+    
+}
+
+
+.connexion-body
+{
+    margin: 15px;
+}
+.user
+{
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+}
+
+.nbr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usericons
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.icongauche
+{
+    display: flex;
+    justify-content: start;
+}
+.icongauche p
+{
+    margin-left: 5px;
+    margin-top: 5px;
+} 
+
+
+
+.user-cardfinal{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.user-card1 {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}

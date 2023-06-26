@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h2>Network</h2>
+    </nav>
+    <main>
+        <div class="title">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="main">
+            <div class="gauche">
+                <div class="profile">
+                    <img src="./img/Me.jpeg" alt="" id="picProfile">
+                    
+                </div>
+                <div class="textprofile">
+                    <a href="#">Add an Avatar</a>
+                    <p id="name">Amine Ben Makhlouf</p>
+                </div>
+            </div>
+            <div class="droite">
+                <div class="card">
+                    <div class="firstLine">
+                        <div class="cardGauche">
+                            <h3>Neil M</h3>
+                        </div>
+                        <div class="cardDroite">
+                            <p><span id="number1">9</span> Likes</p>
+                            <button class="btnLikes" onclick="like('number1')"> Like(s)</button>
+                        </div>
+                    </div>
+                    <div class="secondLine">
+                        <p>I just set up this new discord bot, let me know what you all think. <a href="http://">link</a> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="firstLine">
+                        <div class="cardGauche">
+                            <h3>Nickole K</h3>
+                        </div>
+                        <div class="cardDroite">
+                            <p><span id="number2">12</span> Like(s)</p>
+                            <button class="btnLikes" onclick="like('number2')"> Like(s)</button>
+                        </div>
+                    </div>
+                    <div class="secondLine">
+                        <p>Just finished my <a href="#">next comic</a>. check it out <a href="http://">link</a> </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="firstLine">
+                        <div class="cardGauche">
+                            <h3>Neil M</h3>
+                        </div>
+                        <div class="cardDroite">
+                            <p><span id="number3">9</span> Likes</p>
+                            <button class="btnLikes" onclick="like('number3')"> Like(s)</button>
+                        </div>
+                    </div>
+                    <div class="secondLine">
+                        <p>I can't stop lestening to the <a href="#"> new album</a>. Who else is liking it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

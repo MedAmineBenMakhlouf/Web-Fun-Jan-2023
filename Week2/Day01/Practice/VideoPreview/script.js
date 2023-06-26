@@ -1,13 +1,10 @@
-function playStop()
+function over(element)
 {
-    vid = document.getElementById('vid');
-    if(vid.play)
-    {
-        vid.controls.stop;
-    }
-    else
-    {
-        vid.autoplay=true;
-        vid.muted=false;
-    }
+    document.getElementById('vid').play();
+    
+    element.muted =true;
+}
+function out(element)
+{
+    element.pause();
 }

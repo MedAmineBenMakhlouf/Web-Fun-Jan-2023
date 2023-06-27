@@ -8,7 +8,7 @@
 nav
 {
     display: flex;
-    width: 60%;
+    width: 58%;
     margin: 0 auto;
     padding: 5px 15px;
     justify-content: space-between;
@@ -42,7 +42,7 @@ main
     
     width: 60%;
     margin: 15px auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     display: flex;
     justify-content: space-between;
     height: auto;

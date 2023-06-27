@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div></div>
+    <nav>
+        <div class="navGauche">
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="navDroite">
+            <h4><a href="#" id="land" onclick="alertMessage('land')">Burbank</a></h4>
+            <h4><a href="#" id="land" onclick="alertMessage('land')">Chicago</a></h4>
+            <h4><a href="#" id="land" onclick="alertMessage('land')">Dallas</a></h4>
+        </div>
+    </nav>
+    <main>
+        <div class="mainNav">
+            <div class="mNavG">
+                <h2>San Jose</h2>
+            </div>
+            <div class="mNavD">
+                <p>Show Temperature in</p>
+                <select name="tempr" id="tmpr" onchange="chooseTempr(this)">
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="blockWeather">
+                <h2>Today</h2>
+                <img src="./assets/some_rain.png" alt="" class="weatherPic">
+                <h3>Some rain</h3>
+                <h3><span class="hotDay"><span id="tmpt1">24</span>°</span> &nbsp &nbsp &nbsp &nbsp <span class="coldDay"><span id="tmpt2">18</span>°</span></h3>
+            </div>
+            <div class="blockWeather">
+                <h2>Tomorrow</h2>
+                <img src="./assets/some_sun.png" alt="" class="weatherPic">
+                <h3>Some sun</h3>
+                <h3><span class="hotDay"><span id="tmpt3">27</span>°</span> &nbsp &nbsp &nbsp &nbsp <span class="coldDay"><span id="tmpt4">19</span>°</span></h3>
+            </div>
+            <div class="blockWeather">
+                <h2>Friday</h2>
+                <img src="./assets/some_clouds.png" alt="" class="weatherPic">
+                <h3>Some clouds</h3>
+                <h3><span class="hotDay"><span id="tmpt5">21</span>°</span> &nbsp &nbsp &nbsp &nbsp <span class="coldDay"><span id="tmpt6">16</span>°</span></h3>
+            </div>
+            <div class="blockWeather">
+                <h2>Saturday</h2>
+                <img src="./assets/some_sun.png" alt="" class="weatherPic">
+                <h3>Some sun</h3>
+                <h3><span class="hotDay"><span id="tmpt7">24</span>°</span> &nbsp &nbsp &nbsp &nbsp <span class="coldDay"><span id="tmpt8">18</span>°</span></h3>
+            </div>
+        </div>
+    </main>
+    <div id="foot">
+        <div class="picCookie">
+            <img src="./assets/cookie.png" alt="" class="imgCookie">
+        </div>
+        <div class="textCookie">
+            <h3>Stop! Cookie time.</h3>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our trafic. <a href="#"> Read more</a></p>
+        </div>
+        <div class="buttonCookie">
+            <button id="btnCookie" onclick="close()">I Accept</button>
+        </div>
+    </div>
+    
+</body>
+</html>

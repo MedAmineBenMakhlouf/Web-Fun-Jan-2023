@@ -6,5 +6,5 @@ function over(element)
 }
 function out(element)
 {
-    element.pause();
+    element.currentTime=0;
 }

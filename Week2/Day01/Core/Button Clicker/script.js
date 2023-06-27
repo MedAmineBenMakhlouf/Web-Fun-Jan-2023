@@ -19,7 +19,7 @@ function AlertMessage()
     var alert = document.getElementById('AlertMessage');
     alert.style.position = "absolute"
     alert.style.top = "0px";
-    alert.style.right= "500px";
+    alert.style.right= "40%";
     alert.style.backgroundColor="white"
     alert.style.width ="20%";
     alert.style.border = "1px solid black";

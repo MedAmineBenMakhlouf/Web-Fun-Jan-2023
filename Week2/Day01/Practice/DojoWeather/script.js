@@ -9,9 +9,7 @@ function alertMessage(id)
     alert.style.border = "1px solid black";
     alert.style.height = "120px";
     alert.style.fontFamily="sans-serif"
-    alert.innerHTML = "<div id='alert'><h4>Loading weather repport..</h4></div>"
-    alert.innerHTML += "<hr>"
-    alert.innerHTML+="<button id='btnAlert'>OK</button>";
+    alert.innerHTML = "<div id='alert'><h4>Loading weather repport..</h4> <hr> <button id='btnAlert' onclick='fermeture()'>OK</button></div> "
     var posMainAlert = document.getElementById('alert');
     posMainAlert.style.display="block";
     posMainAlert.style.padding=" 10px 10px";
@@ -22,9 +20,15 @@ function alertMessage(id)
     btnAlert.style.backgroundColor="white";
 }
 
-function close()
+function fermer(id)
 {
-    var cl = document.querySelector('#foot');
+    var cl = document.querySelector(`#${id}`);
+    cl.remove()
+}
+
+function fermeture()
+{
+    var cl = document.querySelector('#land');
     cl.remove()
 }
 

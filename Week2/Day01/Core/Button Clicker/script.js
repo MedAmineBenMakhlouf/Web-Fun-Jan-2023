@@ -17,7 +17,7 @@ function changeText(element)
 function AlertMessage()
 {
     var alert = document.getElementById('AlertMessage');
-    alert.style.position = "absolute"
+    alert.style.position = "absolute";
     alert.style.top = "0px";
     alert.style.right= "40%";
     alert.style.backgroundColor="white"

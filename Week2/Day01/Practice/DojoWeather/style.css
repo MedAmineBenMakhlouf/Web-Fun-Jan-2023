@@ -99,7 +99,7 @@ hr
 {
     padding-top: 10px;
     width:22%;
-    height: auto;
+    height: 45%;
     background-color: rgb(238,238,238);
     display: block;
     text-align: center;
@@ -108,7 +108,7 @@ hr
 
 .blockWeather *
 {
-    margin-bottom: 35px;
+    margin-bottom: 15%;
 }
 
 .weatherPic
@@ -131,33 +131,31 @@ hr
 #foot
 {
     width: 80%;
-    height: 115px;
+    height: 20%;
     border: 2px solid black;
     position: fixed;
-    bottom: 5px;
+    bottom: 3%;
     left: 10%;
     display: flex;
     justify-content: space-between;
     background-color: rgb(238,238,238);
-    margin-top: 10px;
 }
 
 .picCookie
 {
     width: 15%;
-    height: 115px;
-
+    height: auto;
+    display:flex;
+    justify-content:center;
     align-items: center;
 
 }
 
 .imgCookie
 {
-    width: 80px;
-    height: 80px;
+    width: 50%;
+    height: 60%;
     border-radius: 50%;
-    margin-top: 20px;
-    margin-left: 50px;
     border: 1px solid black;
 }
 .textCookie

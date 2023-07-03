@@ -1,0 +1,189 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* Utility class */
+.flex-items
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper
+{
+    width: 1000px;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+header
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(153,153,153);
+}
+
+    .leftHeader
+    {
+        width: 40%;
+        height: 40px;
+        justify-content: space-around;
+    }
+        input[type="text"]
+        {
+            border: 2px solid black;
+        }
+        .leftHeader img
+        {
+            width: 35px;
+        }
+        .leftHeader button
+        {
+            padding: 3px 10px;
+            box-shadow: 3px 3px black;
+            background-color: rgb(255,153,0);
+        }
+    .rightHeader
+    {
+        justify-content: flex-end;
+        width: 30%;
+        height: 40px;
+    }
+        .rightHeader button
+        {
+            padding: 5px 15px;
+            border-radius: 10%;
+            margin-right: 20px;
+        }
+        .getApp
+        {
+            background-color: rgb(41,121,230);
+            color: white;
+        }
+        .logIn
+        {
+            background-color: rgb(255,153,0);
+        }
+nav
+{
+    width: 100%;
+    background-color: white;
+    min-height: 150px;
+    padding-top:10%;
+    padding-left: 10%;
+}
+    .topNav
+    {
+        width: 25%;
+    }
+        .topNav button
+        {
+            border-radius: 5px;
+            background-color: rgb(207,42,39);
+            padding: 5px 15px;
+            border: none;
+            color: white;
+        }
+        .topNav img
+        {
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+    nav ul
+    {
+        width: 25%;
+        list-style: none;
+    }
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .active
+    {
+        color: red;
+        text-decoration: underline;
+    }
+
+main
+{
+    width: 100%;
+    background-color: rgb(221,221,221);
+    height: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+
+    .leftMain
+    {
+        width: 55%;
+        height: auto;
+    }
+        .leftcard
+        {
+            align-items: flex-start;
+            padding: 10px;
+            width: 90%;
+            border: 1px gray solid;
+            background-color: white;
+            margin-bottom: 10px;
+        }
+            .votes
+            {
+                margin: 0 10px;
+            }
+        .arrow
+        {
+            width: 30px;
+        }
+        .comments
+        {
+            width: 60%;
+        }
+        .project>img
+        {
+            width: 90%;
+        }
+    .rightMain
+    {
+        width: 40%;
+        height: auto;
+        height: 558px;
+    }
+        .rightCard h3
+        {
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: 3px solid black;
+        }
+        .rightCard
+        {
+            margin-bottom: 10px;
+        }
+        .rightCard .cardContent
+        {
+            background-color: white;
+            border: 1px gray solid;
+        }
+        .rightCard p
+        {
+            background-color: white;
+            padding: 20px 10px;
+            border: 3px gray solid;
+        }
+        .rightCard button
+        {
+            width: 90%;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 10px 15px;
+        }
+        .rightCard ol
+        {
+            padding: 10px 30px;
+        }

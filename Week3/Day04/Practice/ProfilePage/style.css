@@ -13,10 +13,28 @@
     margin-top: 20rem;
     margin-left: 35rem;
 }
-.imgCont
-{
+
+
+.image-container {
+    position: relative;
+
+}
+
+.image-container img {
+    display: block;
     width: 100%;
-    height: auto;
+    height: 32rem;
+}
+
+.image-container .image-text {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24rem;
+    text-align: center;
 }
 
 .fleche

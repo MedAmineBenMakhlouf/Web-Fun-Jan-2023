@@ -1,0 +1,40 @@
+.navbg
+{
+    background-color: rgb(159,197,248);
+    padding: 0 5rem;
+}
+
+li
+{
+    color: rgb(85,26,139);
+}
+
+select{
+    height: 2rem;
+}
+
+.cardimg
+{
+    width:4rem;
+} 
+.card_body
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookieImg
+{
+    width: 5rem;
+}
+
+.cookie_cont
+{
+    background-color: rgb(238,238,238);
+}
+
+.card
+{
+    background-color: rgb(238,238,238);
+}

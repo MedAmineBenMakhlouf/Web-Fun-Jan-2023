@@ -1,6 +1,4 @@
-var arr2d = [ [2, 5, 8],
-              [3, 6, 1],
-              [5, 7, 7] ];
+var arr2d = [ [2, 5, 8],[3, 6, 1],5, 7, 7] ];
 
 function isPresent2d(arr2d, value) 
 {
@@ -30,13 +28,12 @@ function flatten2dArray(arr2d)
 
     for (let i = 0; i < arr2d.length; i++) 
     {
-      for (let j = 0; j < arr2d[i].length; j++)
-      {
-        flattenedArray.push(arr2d[i][j]);
-      }
+        for (let j = 0; j < arr2d[i].length; j++)
+        {
+            flattenedArray.push(arr2d[i][j]);
+        }
     }
-  
     return flattenedArray;
-  }
-  
-  console.log(flatten2dArray(arr2d));
+}
+
+console.log(flatten2dArray(arr2d));

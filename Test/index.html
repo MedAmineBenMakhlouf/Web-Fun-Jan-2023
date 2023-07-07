@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live Score</title>
+</head>
+<body>
+    <header class="flex-items">
+        <div class="leftHeader">
+            <h3>Live Score</h3>
+        </div>
+
+        <p>SJC ninjas - 314 <br>
+        NS Pirates - 159</p>
+
+        <p>CHI Samurai - 0 <br>
+            TUL Wizards - 0</p>
+
+        <p>BOS Hackers - 13 <br>
+            TYO Youkai - 37</p>
+        
+        <p>BOI Knights - 5 <br>
+            SEA sea Lions - 11</p>
+    </header>
+    <nav class="flex-items">
+        <div class="navLeft flex-items">
+            <h1 class="inclined-border">DNSS</h1>
+            <p>Football</p>
+            <p>Basketball</p>
+            <p>Baseball</p>
+            <p>Soccer</p>
+            <p>More...</p>
+        </div>
+        <div class="navRight flex-items">
+            <img src="./images/search-light.png" alt="SearchButton">
+            <img src="./images/hamburger-light.png" alt="MenuLight">
+            <img src="./images/user-circle-light.png" alt="">
+        </div>
+        
+    </nav>
+    <main class="flex-items">
+        <div class="leftMain">
+            <div class="cardMain">
+                <h2>Top Stories</h2>
+                <hr>
+                <p>Ninjas up big 5th</p>
+                <p>Ninjas up </p>
+                <p>Ninjas up </p>
+                <p>Ninjas up </p>
+                <p>Ninjas up </p>
+            </div>
+            <div class="cardMain">
+                <h3>Custumize your DSNN</h3>
+                <button class="signIn">Sign In</button>
+                <button class="signUp">Sign Up</button>
+            </div>
+            <div class="cardMain">
+                <h2>Never miss a play</h2>
+                <button class="subscribe" onclick="removeIt(this)">subscribe</button>
+            </div>
+        </div>
+
+
+        <div class="rightMain">
+            <div class="headSide flex-items">
+                <div class="leftHeadSide flex-items">
+                    <div class="redCercle"> </div>
+                    <h2> live</h2>
+                </div>
+                <div class="rightHeadSide">
+                    <h2>Ninjas leading pirates</h2>
+                </div>
+            </div>
+            <div class="mainSide flex-items">
+                <div class="CornerSide">
+                    <img src="./images/sjc-ninjas.png" alt="ninjaWeapon" class="sjc-ninja">
+                    <p>San joes</p>
+                    <p class="nameSide">Ninjas</p>
+                    <p class="rounds">(10w - 3L)</p>
+                    <p class="score" onclick="Add('score-1')" id="score-1">314</p>
+                </div>
+                <div class="middleSide">
+                    <p>VS</p>
+                    <p>0:13 remaining <br> 5th period</p>
+                </div>
+                <div class="CornerSide">
+                    <img src="./images/ns-pirates.png" alt="boatNinja" class="boatNinja">
+                    <p>Nova Scotia</p>
+                    <p class="nameSide">Ninjas</p>
+                    <p class="rounds">(12w - 2L)</p>
+                    <p class="score" onclick="Add('score-2')" id="score-2">159</p>
+                </div>
+            </div>
+            <hr>
+            <div class="footSide">
+                <p>A conservative match between the two top-performing sides in the central league Division with a number 1 seed at stake .. <a href="#">get live updates</a></p>
+            </div>
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

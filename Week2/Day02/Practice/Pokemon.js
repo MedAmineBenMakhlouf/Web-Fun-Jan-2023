@@ -24,63 +24,75 @@ var pokémon = [
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ];
 
-for(var i=0; i<pokémon.length; i++) {
-    if(pokémon[i].id > 99) {
+// for(var i=0; i<pokémon.length; i++) {
+//     if(pokémon[i].id > 99) {
+//         console.log(pokémon[i].name);
+//     }
+// }
+
+// for(var i=0; i<pokémon.length;i++)
+// {
+//     if(pokémon[i].id%3==0)
+//     {
+//         console.log(pokémon[i]);
+//     }
+// }
+// console.log('---------------------------------');
+// for(var i=0; i<pokémon.length;i++)
+// {
+//     if(pokémon[i].types.length>1)
+//     {
+//         console.log(pokémon[i]);
+//     }
+// }
+// console.log('---------------------------------');
+// for(var i=0; i<pokémon.length;i++)
+// {
+//     if(pokémon[i].types.length==1 && pokémon[i].types=="poison")
+//     {
+//         console.log(pokémon[i].name);
+//     }
+// }
+
+// console.log('---------------------------------');
+// for(var i=0; i<pokémon.length;i++)
+// {
+//     if(pokémon[i].types[1]=="flying")
+//     {
+//         console.log(pokémon[i].types[0]);
+//     }
+// }
+
+// console.log('---------------------------------');
+// for(var i=0; i<pokémon.length;i++)
+// {
+//     if(pokémon[i].types.length==1 && pokémon[i].types=="poison")
+//     {
+//         var newName = "";
+//         for (var j=pokémon[i].name.length-1; j>=0;j--)
+//         {
+//             newName+=pokémon[i].name[j]
+//         }
+
+//         console.log(newName);
+//     }
+    
+// }
+
+console.log('---------------------------------');
+for(var i=0; i<pokémon.length;i++)
+{
+    if(pokémon[i].types.length==1 && pokémon[i].types=="poison")
+    {
+        for (var j=0; j<=pokémon[i].name.length/2;j++)
+        {
+            var droite = pokémon[i].name[pokémon[i].name.length -1 - j];
+            var tmp = pokémon[i].name[j];
+            pokémon[i].name[j] = droite;
+            droite = tmp
+        }
+
         console.log(pokémon[i].name);
-    }
-}
-
-for(var i=0; i<pokémon.length;i++)
-{
-    if(pokémon[i].id%3==0)
-    {
-        console.log(pokémon[i]);
-    }
-}
-console.log('---------------------------------');
-for(var i=0; i<pokémon.length;i++)
-{
-    if(pokémon[i].types.length>1)
-    {
-        console.log(pokémon[i]);
-    }
-}
-console.log('---------------------------------');
-for(var i=0; i<pokémon.length;i++)
-{
-    if(pokémon[i].types.length==1 && pokémon[i].types=="poison")
-    {
-        console.log(pokémon[i]);
-    }
-}
-
-console.log('---------------------------------');
-for(var i=0; i<pokémon.length;i++)
-{
-    if(pokémon[i].types[1]=="flying")
-    {
-        console.log(pokémon[i].types[0]);
-    }
-}
-
-console.log('---------------------------------');
-for(var i=0; i<pokémon.length;i++)
-{
-    if(pokémon[i].types.length==1 && pokémon[i].types=="poison")
-    {
-        var newName = [];
-        for (var j=pokémon[i].name.length-1; j>=0;j--)
-        {
-            newName.push(pokémon[i].name[j]);
-        }
-        pokémon[i].name = newName;
-        var n = ""
-        for(var j=0;j<=pokémon[i].name.length-1;j++)
-        {
-            n+= pokémon[i].name[j]
-        }
-
-        console.log(n);
     }
     
 }
